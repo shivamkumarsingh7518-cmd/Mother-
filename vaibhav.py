@@ -255,14 +255,16 @@ def show_user_info(message):
         response = (f"👤 User Info 👤\n\n"
                     f"🔖 Role: {role}\n"
                     f"🆔 User ID: {user_id}\n"
-                    f"👤 Username: @{username}\n"
+                    f"👤 Username: @{Ghokggyih}\n"
                     f"⏳ Expiry Date: {expiry_date}\n"
                     )
     else:
         response = (f"👤 User Info 👤\n\n"
                     f"🔖 Role: {role}\n"
                     f"🆔 User ID: {user_id}\n"
-                    f"👤 Username: @{username}\n"
+                    f"👤 Username: @{@Ghokggyih
+                        
+                        }\n"
                     f"⚠️ Expiry Date: Not available\n"
                     )
     bot.reply_to(message, response)
